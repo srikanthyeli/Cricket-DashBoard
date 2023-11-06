@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.team-card-container {
+  display: flex;
+  background-color: transparent;
+  padding: 10px;
+}
+.teamName-img {
+  height: 80px;
+  width: 80px;
+}
+.fullName {
+  font-size: 36px;
+  color: white;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 578px) {
+  .fullName {
+    font-size: 60px;
+  }
+  .teamName-img {
+    height: 160px;
+    width: 160px;
+  }
+}
